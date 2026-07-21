@@ -698,7 +698,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
                                 </goals>
                                 <configuration>
                                     <outputDirectory>${project.build.directory}/lib</outputDirectory>
-                                    <includeScope>compile</includeScope>
+                                    <includeScope>runtime</includeScope>
                                     <excludeGroupIds>org.tensorflow,</excludeGroupIds>
                                     <excludeArtifactIds>cuda,cuda-platform</excludeArtifactIds>
                                     <excludeTransitive>false</excludeTransitive>
@@ -930,7 +930,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
                                 </goals>
                                 <configuration>
                                     <outputDirectory>${project.build.directory}/lib</outputDirectory>
-                                    <includeScope>compile</includeScope>
+                                    <includeScope>runtime</includeScope>
                                     <excludeTransitive>false</excludeTransitive>
                                 </configuration>
                             </execution>
